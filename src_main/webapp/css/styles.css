@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Hind&family=Merriweather&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Hind&family=Merriweather&family=Merriweather+Sans&family=Rubik&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+
+    color: rgba(0, 0, 0, .6);
+}
+
+a,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.app-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    color: black;
+}
+
+/* ЗАГОЛОВОК */
+
+.header {
+    margin-bottom: 100px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 150px;
+
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header__span {
+    padding: 0 5px;
+
+    font-size: inherit;
+
+    color: white;
+    background-color: blue;
+}
+
+.header__nav-element {
+    margin-left: 15px;
+    padding: 3px 0;
+
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, .6);
+    border-bottom: 2px solid transparent;
+
+    transition-property: color, border;
+    transition-duration: .3s;
+}
+
+.header__nav-element:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+/* УСЛУГИ */
+
+.about-us {
+    margin-bottom: 80px;
+}
+
+.about-us__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__text-info {
+    width: 100%;
+}
+
+.about-us__title {
+    margin-bottom: 15px;
+
+    font-size: 65px;
+    text-transform: uppercase;
+
+    color: black;
+}
+
+.list p {
+    font-family: "Rubik", sans-serif;
+}
+
+.list__element {
+    margin-left: 25px;
+}
+
+.about-us__img {
+    width: 700px;
+    height: 467px;
+}
+
+/* КОНТАКТЫ */
+
+.contacts {
+    margin-bottom: 20px;
+}
+
+.contacts__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__map {
+    margin: 20px 0;
+}
+
+.contacts__blocks {
+    display: flex;
+}
+
+.block {
+    margin: 10px 25px;
+}
+
+.block__title {
+    margin-bottom: 5px;
+
+    color: black;
+}
+
+/* О НАС */
+
+.us__inner {
+    margin: 0 auto;
+}
+
+.us__title {
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+.us__text {
+    margin: 15px 0;
+
+    text-align: justify;
+}
+
+/* ОБРАТНАЯ СВЯЗЬ */
+
+.feedback-form__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.feedback-form__subtitle {
+    margin-bottom: 15px;
+}
+
+.feedback-form__name-input,
+.feedback-form__email-input {
+    width: 800px;
+    margin: 5px 0;
+    padding: 5px;
+
+    outline: none;
+}
+
+.feedback-form__message-input {
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 180px;
+    padding: 5px;
+
+    outline: none;
+}
+
+.feedback-form__submit-button {
+    margin: 15px;
+    padding: 15px 20px;
+
+    text-transform: uppercase;
+
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+
+    transition-property: color, background-color;
+    transition-duration: .3s;
+}
+
+.feedback-form__submit-button:hover {
+    color: white;
+    background-color: black;
+
+    cursor: pointer;
+}
+
+/* FAQs */
+
+.questions__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions__title {
+    margin-bottom: 10px;
+}
+
+.questions__all-questions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.question {
+    width: 600px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.question__title {
+    margin-bottom: 15px;
+
+    color: black;
+}
+
+.question__text {
+    text-align: justify;
+}
